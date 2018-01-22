@@ -6,7 +6,7 @@
  * list of the available settings in vendor/craftcms/cms/src/config/DbConfig.php.
  */
 
-$url = getenv('DATABASE_URL');
+$url = getenv('CLEARDB_DATABASE_URL');
 $dbparts = parse_url($url);
 
 return array(
